@@ -6,6 +6,7 @@ using std::endl;
 using std::cin;
 using std::string;
 
+
 class VectorIndexError : public std::exception {
 protected:
   string msg;
@@ -204,7 +205,3 @@ public:
   }
   ~Vector()=default;
 };
-signed main(void) {
-
-  return 0;
-}
