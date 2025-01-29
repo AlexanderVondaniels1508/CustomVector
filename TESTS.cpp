@@ -1,3 +1,5 @@
+/*Here are the test checks for my dynamic array*/
+
 #include "dinamicArray.h"
 #include <bits/stdc++.h>
 
