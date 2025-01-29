@@ -191,6 +191,12 @@ public:
     length=0;
     _capacity=8;
   }
+
+  inline void print(void) const noexcept {
+    for(size_t i=0; i<length; i++)
+      cout << data[i] << " ";
+  }
+
   void resize(size_t new_capacity){
     auto new_data = std::make_unique<T[]>(new_capacity);
     if(new_data == nullptr) 
